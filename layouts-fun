@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /*  body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            width: 1000px;
+
+        }
+        header{
+            background-color: pink;
+
+        }
+        footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: pink;
+            
+        } */
+        
+        main{
+            height: 600px;
+            width: 1160px;
+            position: relative;
+            margin: 5px;
+            background-color: silver;
+            
+        }
+       
+        article{    
+            text-align: justify;
+            width: 250px;
+            position: absolute;
+            padding: 10px;
+            border: 5px solid black;
+            margin: 5px;
+        }
+
+        /* 250+20+10+10 =290 */
+        article:nth-child(1){
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+        border: 5px solid rgb(229, 13, 13);     
+        }
+
+        /* 250+20+10+10+5 =295 */
+        article:nth-child(2){
+        background-color: rgb(195, 127, 255);
+        top: 0px;
+        left: 290px;
+        border: 5px solid rgb(196, 208, 27);  
+        }
+
+        
+        article:nth-child(3){
+        background-color: rgb(169, 27, 108);
+        top: 0px;
+        left: 580px; 
+        border: 5px solid rgb(23, 132, 101);  
+        }
+
+       article:nth-child(4){
+       background-color: rgb(237, 115, 15);
+       top: 0px;    
+       left: 870px; 
+       border: 5px solid rgb(55, 24, 212);   
+        }
+       
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> IBM INDIA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">link item 1</a></li>
+            <li><a href="#">link item 2</a></li>
+            <li><a href="#">link item 3</a></li>
+            <li><a href="#">link item 4</a></li>
+            <li><a href="#">link item 5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <header>
+                About ibm
+            </header>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet obcaecati fuga delectus voluptate dolor praesentium, explicabo laboriosam ex omnis distinctio, dolore cum culpa quaerat tenetur voluptatem, beatae nostrum ducimus?
+            </article>
+        </section>
+    </main>
+    <aside>
+        <header>
+            Aside
+        </header>
+    </aside>
+    <footer>
+        <h3>
+            copyrights reserved by IBM india &copy;</h3>
+    </footer>
+    <hr>
+    <div>
+        iam a div tag
+    </div>
+    <span>
+        iam a span tag
+    </span>
+   
+    
+
+
+    
+</body>
+</html>
